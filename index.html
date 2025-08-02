@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial"/>
+        <meta name="description" content="Personal Portfolio"/>
+        <meta name="author" content="Michael Njoroge"/>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <label for="theme-toggle" class="theme-switch" aria-label="Toggle theme"></label>
+        <input type="checkbox" id="theme-toggle" hidden>
+
+        <input type="checkbox" id="menu-toggle" hidden/>
+        <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">&#9776;</label>
+
+        <header>
+            <h1>Michael Njoroge | Software Developer</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Mike, a passionate and detail-oriented Software Engineer with a focus of building clean, scalable and efficient softwares. I thrive in collaborative environments.</p>
+                <p>I am driven by the challenge of solving real-world problems through technology.</p>
+                <p>Outside of coding, I enjoy playing football and hiking which help me to stay creative and well-rounded.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li><img src="icons/html.png" alt="HTML5" class="icon-img"/>HTML</li>
+                    <li><img src="icons/css.png" alt="CSS3" class="icon-img"/>CSS</li>
+                    <li><img src="icons/js.png" alt="JavaScript" class="icon-img"/>JavaScript</li>
+                    <li><img src="icons/python.png" alt="Python" class="icon-img"/>Python</li>
+                    <li><img src="icons/java.png" alt="Java" class="icon-img"/>Java</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <p>Kenya Certificate Of Secondary Education - Muranga'a High (2019-2022)</p>
+                <p>Web Development Concepts - Olum Code Camp (Jan 2024 - Jun 2024)</p>
+                <p>Software Engineering - Moringa School (Jun 2024 - Nov 2024)</p>
+                <a href="assets/Michael Njoroge CV.pdf" download>Download My CV</a>
+            </section>
+
+            <section id="interests">
+                <h2>Interests</h2>
+                <p>I am highly interested in building scalable backend systems,, exploring new programming languages, AI and mentoring junior developers.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <h3>Book Club</h3>
+                    <p>Platform that facilitates seamless organization, enhanced communication and increased accessibility.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Loyalty Card System</h3>
+                    <p>A user is able to see one's points after inputing one's ID number.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This is the very site, built using pure HTML and CSS.</p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/movlnllw" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required/>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required/>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <a href="mailto:mikynjoro01@gmail.com">
+                    <img src="icons/mail.png" alt="Email" class="icon-img"/>
+                </a>
+                <a href="https://github.com/MichaelNgure" target="_blank">
+                    <img src="icons/github.png" alt="Github" class="icon-img"/>
+                </a>
+                <a href="https://www.linkedin.com/in/miky-njoro-18b357330/" target="_blank">
+                    <img src="icons/linkedin.png" alt="LinkedIn" class="icon-img"/>
+                </a>
+            </div>
+            <p>&copy; 2025 Mike. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
